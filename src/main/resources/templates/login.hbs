@@ -1,0 +1,25 @@
+<html xmlns:Username="http://www.w3.org/1999/xhtml">
+<body>
+
+
+
+     <script id="header" type="text/x-handlebars-template">​
+
+    ​
+    <div class="container">
+
+        <div id="title"><h3>OAuthGod v1.0</h3></div>
+        <div id="login_box">
+            <form action="confirm?client_id={{client_id}}&redirect_uri={{redirect_uri}}" method="post" accept-charset="utf-8">
+                Username: <input type="text" name="username"/>
+                Password: <input type="text" name="password"/>
+                <input type="submit" value="Log In" />
+            </form>
+            client_id={{client_id}}&redirect_uri={{redirect_uri}}
+        </div>
+    </div>
+
+
+    </script>
+</body>
+</html>
